@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="box">
+        <div id="header">Oblicz swój wskaźnik BMI</div>
+        <div id="error"></div>
+        <div id="content" id="wzrost"><br><br>
+            Wzrost (cm):<br>
+            <input type="number" id="wzrost"><br><br>
+            Waga (kg):<br>
+            <input type="number" id="waga"><br><br>
+            <input type="submit" value="Oblicz" id="przycisk" onclick="oblicz()">
+            <div id="wynik">Wynik</div>
+        </div>  
+        <div id="footer"><span style="margin-right: 10px;">Web by Michał Kluz</span></div>     
+    </div>
+</body>
+</html>
